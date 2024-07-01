@@ -2,13 +2,12 @@
 
 !.gitignore
 
-!.i3/
-.i3/*
-!.i3/config
-
 !.config/
 .config/*
-!.config/polubar/*.ini
+
+!.config/doom/
+.config/doom/*
+!.config/doom/config.el
 
 !.config/polybar
 .config/polybar/*
