@@ -1,0 +1,16 @@
+/*
+
+!.gitignore
+
+!.i3/
+.i3/*
+!.i3/config
+
+!.config/
+.config/*
+!.config/polubar/*.ini
+
+!.config/polybar
+.config/polybar/*
+!.config/polybar/*.ini
+!.config/polybar/*.sh
