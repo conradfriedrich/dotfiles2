@@ -5,6 +5,8 @@
 !.config/
 .config/*
 
+.i3/*
+
 !.config/doom/
 .config/doom/*
 !.config/doom/config.el
