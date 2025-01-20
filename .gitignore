@@ -6,13 +6,16 @@
 .config/*
 
 !.i3/
-.i3/*
-!.i3/config
 
 !.config/doom/
 .config/doom/*
 !.config/doom/config.el
 
+!.config/i3/
+.config/i3/*
+!.config/i3/config
+
+config/doom/*
 !.config/polybar
 .config/polybar/*
 !.config/polybar/*.ini
