@@ -299,10 +299,10 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id redshift -l 48.13743:11.57549
 # exec_always --no-startup-id sbxkb
 
-exec "setxkbmap -layout us,de"
-exec "setxkbmap -option 'grp:alt_shift_toggle'"
+# exec "setxkbmap -layout us,de -option 'ctrl:swapcaps,grp:toggle'"
+exec "setxkbmap -layout us,de -option 'grp:toggle'"
 
-exec --no-startup-id /usr/bin/xmodmap "$HOME/.Xmodmap"
+# exec --no-startup-id /usr/bin/xmodmap "$HOME/.Xmodmap"
 
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green
