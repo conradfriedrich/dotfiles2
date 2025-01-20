@@ -1,11 +1,11 @@
 /*
 
 !.gitignore
+!.Xresources
+!.extend.Xresources
 
 !.config/
 .config/*
-
-!.i3/
 
 !.config/doom/
 .config/doom/*
@@ -15,7 +15,6 @@
 .config/i3/*
 !.config/i3/config
 
-config/doom/*
 !.config/polybar
 .config/polybar/*
 !.config/polybar/*.ini
