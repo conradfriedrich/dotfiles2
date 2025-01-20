@@ -20,3 +20,7 @@
 .config/polybar/*
 !.config/polybar/*.ini
 !.config/polybar/*.sh
+
+!.config/rofi
+.config/rofi/*
+!.config/rofi/*.rasi 
