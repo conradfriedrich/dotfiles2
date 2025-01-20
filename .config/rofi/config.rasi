@@ -149,4 +149,4 @@ configuration {
       sorting-method:    "name";
   }
 }
-@theme "/home/gilbert/.local/share/rofi/themes/squared-nord.rasi"
+@theme "/home/gilbert/.config/rofi/squared-nord.rasi"
