@@ -11,7 +11,7 @@
 (use-package citar
   :no-require
   :custom
-  (org-cite-global-bibliography '("/home/gilbert/Documents/2022-PhD/bibliography/references.bib"))
+  (org-cite-global-bibliography '("/home/gilbert/references.bib"))
   (org-cite-insert-processor 'citar)
   (org-cite-follow-processor 'citar)
   (org-cite-activate-processor 'citar)

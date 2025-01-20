@@ -10,8 +10,8 @@ killall -q polybar
 echo "---" | tee -a /tmp/polybar1.log 
 # polybar bar1 2>&1 | tee -a /tmp/polybar1.log & disown
 
-MONITOR=HDMI-0 polybar --reload bar1 &
-MONITOR=DP-0 polybar --reload bar2 &
+MONITOR=DP-0 polybar --reload bar1 &
+# MONITOR=DP-0 polybar --reload bar2 &
 
 echo "Bars launched..."
 

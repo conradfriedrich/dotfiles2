@@ -5,7 +5,9 @@
 !.config/
 .config/*
 
+!.i3/
 .i3/*
+!.i3/config
 
 !.config/doom/
 .config/doom/*
