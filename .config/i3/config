@@ -32,7 +32,8 @@ font pango:Noto Sans Mono 12
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec terminal
+# bindsym $mod+Return exec terminal
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -113,7 +114,7 @@ bindsym $mod+b workspace back_and_forth
 bindsym $mod+Shift+b move container to workspace back_and_forth; workspace back_and_forth
 
 # split orientation
-# bindsym $mod+h split h;exec notify-send 'tile horizontally'
+bindsym $mod+g split h;exec notify-send 'tile horizontally'
 bindsym $mod+v split v;exec notify-send 'tile vertically'
 bindsym $mod+q split toggle
 
@@ -234,6 +235,9 @@ for_window [class="Xfburn"] floating enable
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
+# Disable window title bar
+for_window [class="^.*"] border pixel 1
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 
@@ -299,9 +303,8 @@ exec --no-startup-id blueman-applet
 exec --no-startup-id redshift -l 48.13743:11.57549
 # exec_always --no-startup-id sbxkb
 
-exec "setxkbmap -layout us,de -option 'ctrl:swapcaps,grp:toggle'"
-
-# exec --no-startup-id /usr/bin/xmodmap "$HOME/.Xmodmap"
+# exec_always --no-startup-id /usr/bin/xmodmap "$HOME/.Xmodmap"
+exec_always "setxkbmap -layout us,de -option 'ctrl:nocaps,grp:toggle'"
 
 # exec --no-startup-id start_conky_maia
 # exec --no-startup-id start_conky_green

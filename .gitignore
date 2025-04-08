@@ -24,3 +24,9 @@
 !.config/rofi
 .config/rofi/*
 !.config/rofi/*.rasi 
+
+!.config/nvim/
+.config/nvim/*.json
+.config/nvim/lua/*.bak
+
+
