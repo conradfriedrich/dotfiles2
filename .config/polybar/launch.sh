@@ -14,7 +14,7 @@ for m in $(polybar --list-monitors | cut -d":" -f1); do
     MONITOR=$m polybar --reload bar1 &
 done
 
-# MONITOR=eDP-1 polybar --reload bar1 &
+# MONITOR=DP-0 polybar --reload bar1 &
 # MONITOR=DP-0 polybar --reload bar2 &
 
 echo "Bars launched..."

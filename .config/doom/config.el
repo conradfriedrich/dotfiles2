@@ -6,6 +6,8 @@
 ;; Shows the full link always
 (setq org-descriptive-links nil)
 
+(setq org-latex-with-hyperref nil)
+
 (require 'org-inlinetask)
 
 (use-package citar
