@@ -60,7 +60,7 @@ XTerm*selectToClipboard: true
 !URxvt.font: xft:Hack:size=10
 !URxvt.font: xft:DejaVuSansMono:size=15
 !URxvt.font: xft:NotoSansMono\ Nerd\ Font:size=16
-URxvt.font: xft:NotoSansMono:size=16
+URxvt.font: xft:NotoSansMono:size=14
 
 URxvt.geometry: 80x20
 URxvt.depth: 32

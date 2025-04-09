@@ -9,7 +9,7 @@
 (require 'org-inlinetask)
 
 (use-package citar
-  :no-require
+  ;; :no-require
   :custom
   (org-cite-global-bibliography '("/home/gilbert/references.bib"))
   (org-cite-insert-processor 'citar)

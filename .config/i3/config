@@ -44,7 +44,8 @@ bindsym $mod+d exec --no-startup-id rofi -show run -show-icons
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
 
-bindsym $mod+o exec "~/.screenlayout/hdmi-left-dp-right.sh; sleep 3; exec notify-send 'HDMI and DP'"
+# bindsym $mod+o exec "~/.screenlayout/hdmi-left-dp-right.sh; sleep 3; exec notify-send 'HDMI and DP'"
+bindsym $mod+o exec "~/.screenlayout/dp-2-1-dp-2-2.sh; sleep 3; exec notify-send 'DP 1 and DP 2'"
 
 
 
