@@ -46,9 +46,9 @@ bindsym $mod+d exec --no-startup-id rofi -show run -show-icons
 bindsym $mod+z exec --no-startup-id morc_menu
 
 # bindsym $mod+o exec "~/.screenlayout/hdmi-left-dp-right.sh; sleep 3; exec notify-send 'HDMI and DP'"
-bindsym $mod+o exec "~/.screenlayout/dp-2-1-dp-2-2.sh; sleep 3; exec notify-send 'DP 1 and DP 2'"
-
-
+# bindsym $mod+o exec "~/.screenlayout/dp-2-1-dp-2-2.sh; sleep 3; exec notify-send 'DP 1 and DP 2'"
+bindsym $mod+o exec "~/.screenlayout/eDP.sh; sleep 3; exec notify-send 'eDP only'"
+bindsym $mod+Shift+o exec "~/.screenlayout/DP.sh; sleep 3; exec notify-send 'DP only'"
 
 ################################################################################################
 ## sound-section - DO NOT EDIT if you wish to automatically upgrade Alsa -> Pulseaudio later! ##
@@ -69,6 +69,7 @@ bindsym $mod+Ctrl+m exec pavucontrol
 #
 bindsym XF86AudioRaiseVolume exec "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 +10%"
 bindsym XF86AudioLowerVolume exec "pactl set-sink-mute 0 false ; pactl set-sink-volume 0 -10%"
+bindsym $mod+p exec xinput set-prop 10 "Device Enabled" 0; exec notify-send ''
 
 # Start Applications
 bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
